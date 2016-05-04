@@ -1,0 +1,6 @@
+{
+  "name": "Atmel University France",
+  "tagline": "home",
+  "body": "### About\r\nThis page aims at presenting the Atmel University deliveries. Each new release or new project creation will be announced here.\r\n\r\n### Arduino IDE Boards Manager modules\r\nAtmel SAMD21 Xplained Pro and derivatives module\r\n\r\nAtmel AVR Xplained minis module\r\n\r\n### Authors and Contributors\r\nWe are Atmel engineers involved into University matters.\r\n\r\n### Support or Contact\r\nHaving trouble with one of our project? Don't hesitate to raise an issue to the appropriate repository issue tracker and we will do our best to fix or improve the according project.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

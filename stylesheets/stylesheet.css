@@ -452,7 +452,8 @@ header {
   padding-bottom: 40px; */
 /*  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; */
 /*  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x; */
-  background: #0374b6 url(../images/Univ_Prog_Microsite_landing_734x175_041414.jpg) center no-repeat;
+/*  background: #0374b6 url(../images/Univ_Prog_Microsite_landing_734x175_041414.jpg)  no-repeat; */
+  background: #0374b6;
   border-bottom: solid 1px #275da1;
   height: 175px;
 }

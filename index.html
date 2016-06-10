@@ -28,10 +28,59 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
+        <p>Contents</p>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <br/>
+          <li><a href="#arduino-ide-boards-manager-modules">Arduino IDE Boards Manager modules</a></li>
+          <li><a href="#basic-examples">Basic examples for University teachers discovery</a></li>
+          <li><a href="#ardublockly">Ardublockly - Arduino programming using functional blocks</a></li>
+          <li><a href="#authors-and-contributors">Authors and Contributors</a></li>
+          <br/>
+          <li><a href="#how-to-contribute">How to contribute?</a></li>
+          <li><a href="#support-or-contact">Support or Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
         <section id="main-content">
+<!-- About -->
           <h1><a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h1>
 
           <p>This page aims at presenting the Atmel University deliveries. Each new release or new project creation will be announced here.</p>
+          <br/><br/>
+          <p>
+            If you do university workshops using our material and want to present their source, you can use the following non-official logos which are used only for our github organisation.
+          <p>
+          </p>
+            <a href="http://www.atmel.com/about/corporate/university/default.aspx">
+              <img src="images/UnivProg_Logo-Blue_resquared.png" width="100px" height="100px" alt="Atmel University GitHub Logo" />
+            </a>
+            &nbsp;&nbsp;
+            <a href="http://www.atmel.com/about/corporate/university/default.aspx">
+              <img src="images/UnivProgFrance_Logo-Blue_resquared.png" width="100px" height="100px" alt="Atmel University France GitHub Logo" />
+            </a>
+          </p>
+
+
+          <p>
+            In case of partnership between your University or organization and Atmel (subsidiary of Microchip), you can demonstrate it by using the following corporate logos.
+          <p>
+          </p>
+            <img src="images/UnivProg_Logo-Blue.png" width="20%" height="20%" alt="Atmel University Logo" />&nbsp;&nbsp;
+            <img src="images/ATML_logo.png" width="20%" height="20%" alt="Atmel Logo" />&nbsp;&nbsp;
+            <img src="images/MCHP_logo.png" width="20%" height="20%" alt="Microchip Logo" />
+          </p>
+
+          <p>
+            the following QR code point directly to this page if you want to print stickers and put them on boards.
+            <!--<a href="https://www.the-qrcode-generator.com/">-->
+              <img src="http://chart.apis.google.com/chart?chs=100x100&amp;cht=qr&amp;chld=|1&amp;chl=http%3A%2F%2Fatmeluniversityfrance.github.io%2F" alt="QR Code" />
+            <!--</a>-->
+          </p>
+          <br/><br/>
 
 <!-- Arduino IDE Boards Manager modules -->
           <h1><a id="arduino-ide-boards-manager-modules" class="anchor" href="#arduino-ide-boards-manager-modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Arduino IDE Boards Manager modules</h1>
@@ -63,8 +112,8 @@
           </ul>
 
           The Github repository is present at <a href="https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule">https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule</a> and documentation is provided through the associated <a href="https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule/wiki">wiki</a>.
-          <br/>
-          <br/>
+          <br/><br/>
+          <br/><br/>
 
 <!-- Basic examples for University teachers discovery -->
           <h1><a id="basic-examples" class="anchor" href="#basic-examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic examples for University teachers discovery</h1>
@@ -143,6 +192,38 @@
               </ul>
             </li>
           </ul>
+          <br/><br/>
+
+<!-- Ardublockly -->
+          <h1><a id="ardublockly" class="anchor" href="#ardublockly" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ardublockly - Arduino programming using functional blocks</h1>
+
+          <p>
+            <a href="http://ardublockly.embeddedlog.com/">Ardublockly</a> is a visual programming editor for Arduino. It is based on Google's <a href="https://developers.google.com/blockly/">Blockly</a>,
+            which has been forked to generate <a href="http://www.arduino.cc">Arduino</a> code.<br/>
+            The ArdublocklyServer Python package initialises a local server to be able to compile and load the Arduino code using the <a href="http://www.arduino.cc/en/main/software/">Arduino IDE</a>.<br/>
+            This is all packaged in a self contained executable desktop application for Windows, Mac OS X, and Linux.
+          </p>
+          <img src="https://camo.githubusercontent.com/ac2ae3998fc8c77e55effe4c9cbd84031c473fbe/687474703a2f2f6361726c6f737065726174652e6769746875622e696f2f61726475626c6f636b6c792f696d616765732f73637265656e73686f745f6465736b746f705f312e706e67" alt="ArduBlockly" />
+
+          <p>
+            We contribute to this project from time to time, mainly for workshops planned for kids during Community events. Our repository can be found <a href="https://github.com/AtmelUniversityFrance/ardublockly">here</a>.
+          </p>
+
+          <h2>ArduBlockly installation</h2>
+          <p>
+          At first, you need to install Python 2.x from <a href="https://www.python.org/downloads/">Official Python web page</a> and <a href="http://www.arduino.cc/en/main/software/">Arduino IDE</a>.<br/>
+          Then download the <a href="https://github.com/AtmelUniversityFrance/ardublockly/archive/mchp_atmel.zip">Atmel by Microchip ArduBlockly zip archive</a> and extract it on your computer.<br/>
+          </p>
+
+          <h2>ArduBlockly usage</h2>
+          <p>
+          Open a command line (shell) in the folder where you extracted or cloned our repository content and then run 'python start.py'. Your default web browser should open on the <a href="http://localhost:8000/ardublockly/">local web page</a> provided by ArduBlockly Python server.<br/>
+          Before beginning using ArduBlockly, you have to configure the Arduino IDE path and the board you intend to use in the settings (click on top-left icon, at the left of Microchip logo, and settings).
+          <br/><br/>
+          Complementary and very useful information is available at <a href="http://ardublockly.embeddedlog.com/">Ardublockly</a> web page and its according <a href="https://github.com/carlosperate/ardublockly/wiki">wiki</a>.
+          </p>
+
+          <br/><br/>
 
 <!-- Authors and contributors -->
           <h1><a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h1>
@@ -152,7 +233,7 @@
 <!-- How to contribute? -->
           <h1><a id="how-to-contribute" class="anchor" href="#how-to-contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to contribute?</h1>
 
-          <p>Any contribution is welcome to any of our repositories. We expect only contributions to follow the usual git(hub) process: fork, patch, submit a pull request, review and merge to main line.</p>
+          <p>Every contribution is welcome to any of our repositories. We expect only contributions to follow the usual git(hub) process: fork, patch, submit a pull request, review and merge to main line.</p>
 
 <!-- Support or Contact -->
           <h1><a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h1>
@@ -160,23 +241,25 @@
           <p>Having trouble with one of our project? Don't hesitate to raise an issue to the appropriate repository issue tracker and we will do our best to fix or improve the according project.</p>
         </section>
 
+<!--
         <aside id="sidebar">
           <p>
             <a href="http://www.atmel.com/about/corporate/university/default.aspx">
-              <img src="images/UnivProg_Logo-Blue_resquared.png" width="200px" height="200px" alt="Atmel University GitHub Logo" />
+              <img src="images/UnivProg_Logo-Blue_resquared.png" width="100px" height="100px" alt="Atmel University GitHub Logo" />
             </a>
           </p>
           <p>
             <a href="http://www.atmel.com/about/corporate/university/default.aspx">
-              <img src="images/UnivProgFrance_Logo-Blue_resquared.png" width="200px" height="200px" alt="Atmel University France GitHub Logo" />
+              <img src="images/UnivProgFrance_Logo-Blue_resquared.png" width="100px" height="100px" alt="Atmel University France GitHub Logo" />
             </a>
           </p>
           <p>
             <a href="https://www.the-qrcode-generator.com/">
-              <img src="http://chart.apis.google.com/chart?chs=200x200&amp;cht=qr&amp;chld=|1&amp;chl=http%3A%2F%2Fatmeluniversityfrance.github.io%2F" alt="QR Code" />
+              <img src="http://chart.apis.google.com/chart?chs=100x100&amp;cht=qr&amp;chld=|1&amp;chl=http%3A%2F%2Fatmeluniversityfrance.github.io%2F" alt="QR Code" />
             </a>
           </p>
         </aside>
+-->
       </div>
     </div>
 

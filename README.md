@@ -1,2 +1,2 @@
 # AtmelUniversityFrance.github.io
-Atmel University France website
+Source of Atmel University France website: http://atmeluniversityfrance.github.io/

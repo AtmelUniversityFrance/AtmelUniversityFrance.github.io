@@ -31,10 +31,10 @@
           <h1><a id="codebender" class="anchor" href="#codebender" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>codebender - Cloud-based Arduino programming</h1>
           
           <h2>Using codebender's Embedded Code View</h2>
-          <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://atmel-xplained-proteus.codebender.cc/" frameborder="0"></iframe>
+          <iframe id="atmel-codebender-editor" style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://atmel-xplained-proteus.codebender.cc/" frameborder="0"></iframe>
 
           <h2>Using codebender's Embedded Blockly View</h2>
-          <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://atmel-xplained-proteus-blockly.codebender.cc/" frameborder="0"></iframe>
+          <iframe id="atmel-codebender-blockly" style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://atmel-xplained-proteus-blockly.codebender.cc/" frameborder="0"></iframe>
 
           <br/><br/>
 
@@ -42,5 +42,8 @@
       </div>
     </div>
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="javascripts/codebender-client.js"></script>
+    <script type="text/javascript" src="javascripts/codebender.js"></script>
   </body>
 </html>
